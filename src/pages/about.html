@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/webfonts/fa-brands-400.woff2">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body class="group">
+    <header class="group fixed top-0 bg-white left-0 z-10 w-full test overflow-hidden">
+        <div class="container mx-auto bg-white flex justify-between items-center py-5">
+            <div class="flex gap-2 items-center">
+                <div
+                    class="w-14 h-14 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white flex justify-center items-center text-3xl font-black">
+                    OP</div>
+                <div class="text-2xl font-bold text-gray-700">Oumra Prestige</div>
+            </div>
+            <div class="hidden lg:flex">
+                <ul class="flex gap-2 items-center text-xl font-light">
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="./home.html">Accueil</a></li>
+                    <li class="text-amber-500 cursor-pointer"><a href="./about.html">À propos</a></li>
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="./reservation.html">Reservation</a></li>
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex gap-2 items-center">
+                <a class="px-2 py-1 bg-linear-to-r from-[#4C5765] to-[#989FAB] rounded-full text-white text-xl "
+                    href="../../index.html">Connexion</a>
+                <a class="px-2 py-1 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white text-xl "
+                    href="../../index.html">Inscription</a>
+            </div>
+            <label for="menu" class="lg:hidden relative w-10 h-10 cursor-pointer bg-white">
+                <input name="menu" type="checkbox" id="menu" data-menu class="peer hidden">
+                <span
+                    class="absolute w-full top-0 transition-all duration-300 peer-checked:-top-30 peer-checked:scale-300 text-4xl">☰</span>
+                <span
+                    class="transition-all duration-300 scale-0 peer-checked:scale-110 peer-checked:rotate-360 absolute inset-0 translate-y-2 text-3xl">✖</span>
+            </label>
+
+        </div>
+        <div class="w-full opacity-0 font-bold transition-all duration-300 h-0 group-has-[#menu:checked]:h-60 group-has-[#menu:checked]:opacity-100 mx-auto flex flex-col gap-3 justify-center items-center  text-white lg:hidden"
+            style="background-image: url(../assets/img/mosque2.jpg); background-size: cover; background-position: center;">
+            <ul class="flex flex-col gap-2 items-center">
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    <a href="./home.html">Accueil</a>
+                </li>
+                <li class="text-xl transition-all duration-300  bg-amber-300 px-4 cursor-pointer rounded-full">
+                    <a href="./about.html">À propos</a>
+                </li>
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    <a href="./reservation.html">Reservation</a>
+                </li>
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="flex gap-2 items-center">
+                <a class="px-2 py-1 bg-linear-to-r from-[#4C5765] to-[#989FAB] rounded-full text-white"
+                    href="../../index.html">Connexion</a>
+                <a class="px-2 py-1 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white"
+                    href="../../index.html">Inscription</a>
+            </div>
+        </div>
+
+
+
+
+    </header>
+
+    <main class="transition-all duration-300 group-has-[#menu:checked]:translate-y-20">
+        <section
+            class="text-white w-screen h-[200px] mt-[100px] bg-linear-to-r from-[#CA8A01] to-[#EAB307] flex flex-col gap-3 items-center justify-center">
+
+            <div class="text-center text-2xl sm:text-4xl lg:text-6xl font-bold z-1">A Propos de Oumra Prestige</div>
+            <div class="text-center sm:text-xl lg:text-2xl z-1">Votre partenaire de confiance depuis plus de 10 ans
+            </div>
+        </section>
+        <section class="container mx-auto grid grid-cols-2 items-center py-10">
+            <div class="flex flex-col gap-4">
+                <span class="text-2xl font-bold">Notre Mission</span>
+                <p>Chez Oumra Prestige, notre mission est d'offrir à chaque pèlerin une expérience spirituelle
+                    exceptionnelle et mémorable. Nous nous engageons à faciliter votre voyage vers les lieux saints avec
+                    professionnalisme, dévouement et respect.</p>
+                <p>Depuis notre création, nous avons accompagné des milliers de fidèles dans leur quête spirituelle, en
+                    garantissant un service de qualité supérieure et un accompagnement personnalisé à chaque étape du
+                    voyage.</p>
+                <p>Notre équipe d'experts passionnés travaille sans relâche pour que votre Oumra soit un moment de paix,
+                    de recueillement et de connexion spirituelle profonde.</p>
+            </div>
+            <div class="">
+                <img class="w-full h-[500px]" src="../assets/img/caba.jpg" alt="">
+            </div>
+            <div></div>
+        </section>
+        <section class="w-full bg-[#f0f3f5] py-10">
+            <section class="container mx-auto my-10 ">
+                <div class="text-3xl text-center mb-10">Nos Valeurs fondamentales
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-yellow-600">
+                            <i class="fa-solid fa-earth-europe"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Formules Personnalisées</div>
+                        <p>Des packages adaptés à vos besoins, du confort standard au prestige VIP.</p>
+                    </div>
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white ">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-green-600">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Accompagnement Complet</div>
+                        <p>Des guides expérimentés vous accompagnent tout au long de votre voyage spirituel.</p>
+                    </div>
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white ">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-blue-600">
+                            <i class="fa-solid fa-hotel"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Hôtels de Qualité</div>
+                        <p>Hébergements confortables à proximité des lieux saints pour votre sérénité.</p>
+                    </div>
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white ">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-[#9D44F1]">
+                            <i class="fa-solid fa-earth-europe"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Formules Personnalisées</div>
+                        <p>Des packages adaptés à vos besoins, du confort standard au prestige VIP.</p>
+                    </div>
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white ">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-[#E43333]">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Accompagnement Complet</div>
+                        <p>Des guides expérimentés vous accompagnent tout au long de votre voyage spirituel.</p>
+                    </div>
+                    <div class="flex items-center flex-col gap-5 p-5 rounded-2xl shadow-xl bg-white ">
+                        <div
+                            class="w-20 h-20 rounded-full text-white text-2xl flex justify-center items-center bg-[#5650E8]">
+                            <i class="fa-solid fa-hotel"></i>
+                        </div>
+                        <div class="text-2xl font-medium text-center">Hôtels de Qualité</div>
+                        <p>Hébergements confortables à proximité des lieux saints pour votre sérénité.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div classe="w-full py-10">
+            <div class="container grid grid-cols-2 gap-5 sm:flex justify-around py-10 mx-auto items-center">
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl font-bold">10+</div>
+                    <div>Années d'expérience</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl font-bold">500+</div>
+                    <div>Pèlerins satisfaits</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl font-bold">98%</div>
+                    <div>Taux de satisfaction</div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-3xl font-bold">24/7</div>
+                    <div>Support client</div>
+                </div>
+            </div>
+        </div>
+
+        <section class="w-full py-10 bg-gray-100">
+            <div class="container mx-auto">
+                <div class="text-3xl font-bold w-full text-center mx-auto">Prêt à commencer votre voyage spirituel ?
+                </div>
+                <div class="w-full text-center py-5 mx-auto">Rejoignez les milliers de pèlerins qui nous ont fait confiance
+                </div>
+                <div class="flex w-full justify-center">
+                <a class="text-xl font-black transition-all duration-300 cursor-pointer bg-amber-300 px-4 py-3 rounded-full" href="./reservation.html">Reserver Votre Oumra</a>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="w-screen bg-[#0F1727] pb-10">
+        <div class="container mx-auto text-white/50 grid sm:grid-cols-4 gap-4 py-10 border-b-2 border-b-gray-800">
+            <div class="flex flex-col gap-5  items-center text-center sm:items-start sm:text-start">
+                <span class="text-[#E9B304] font-bold">Oumra Prestige</span>
+                <p>Votre partenaire de confiance pour un voyage spirituel inoubliable vers La Mecaue.</p>
+            </div>
+            <div class="flex flex-col gap-5 items-center text-center sm:items-start sm:text-start">
+                <span class="font-bold text-white">Liens Rapides</span>
+                <ul class="flex flex-col gap-2">
+                    <li>Acceil</li>
+                    <li>À Propos</li>
+                    <li>Réservation</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5 items-center text-center sm:items-start sm:text-start">
+                <span class="font-bold text-white">Contacts</span>
+                <ul class="flex flex-col gap-2">
+                    <li><i class="fa-solid fa-phone"></i> +227 87878785</li>
+                    <li><i class="fa-solid fa-message"></i> hadj@gmail.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Niamey / Niger</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5 items-center text-center sm:items-start sm:text-start">
+                <span class="font-bold text-white">Suivez Nous</span>
+                <ul class="flex gap-2">
+                    <li class="w-8 h-8 rounded-full bg-white/10 text-white flex justify-center items-center"><i
+                            class="fa-brands fa-facebook-f"></i></li>
+                    <li class="w-8 h-8 rounded-full bg-white/10 text-white flex justify-center items-center"><i
+                            class="fa-brands fa-linkedin-in"></i></li>
+                    <li class="w-8 h-8 rounded-full bg-white/10 text-white flex justify-center items-center"><i
+                            class="fa-solid fa-camera"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-full text-center text-white/50 py-5">© 2024 Oumra Prestige. Tous droits réservés.</div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./src/assets/fontawesome/webfonts/fa-brands-400.woff2">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <title>Document</title>
+</head>
+
+<body class="group">
+    <header class="group shadow-xl fixed top-0 bg-white left-0 z-10 w-full test overflow-hidden">
+        <div class="container mx-auto bg-white flex justify-between items-center py-5">
+            <div class="flex gap-2 items-center">
+                <div
+                    class="w-14 h-14 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white flex justify-center items-center text-3xl font-black">
+                    OP</div>
+                <div class="text-2xl font-bold text-gray-700">Oumra Prestige</div>
+            </div>
+            <div class="hidden lg:flex">
+                <ul class="flex gap-2 items-center text-xl font-light">
+                    <li class="text-amber-500 cursor-pointer"><a href="">Accueil</a></li>
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="./src/pages/about.html">À propos</a></li>
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="">Reservation</a></li>
+                    <li class="hover:text-amber-500 cursor-pointer"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex gap-2 items-center">
+                <a class="px-2 py-1 bg-linear-to-r from-[#4C5765] to-[#989FAB] rounded-full text-white text-xl "
+                    href="">Connexion</a>
+                <a class="px-2 py-1 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white text-xl "
+                    href="">Inscription</a>
+            </div>
+            <label for="menu" class="lg:hidden relative w-10 h-10 cursor-pointer bg-white">
+                <input name="menu" type="checkbox" id="menu" data-menu class="peer hidden">
+                <span
+                    class="absolute w-full top-0 transition-all duration-300 peer-checked:-top-30 peer-checked:scale-300 text-4xl">☰</span>
+                <span
+                    class="transition-all duration-300 scale-0 peer-checked:scale-110 peer-checked:rotate-360 absolute inset-0 translate-y-2 text-3xl">✖</span>
+            </label>
+
+        </div>
+        <div class="w-full opacity-0 font-bold transition-all duration-300 h-0 group-has-[#menu:checked]:h-60 group-has-[#menu:checked]:opacity-100 mx-auto flex flex-col gap-3 justify-center items-center  text-white lg:hidden"
+            style="background-image: url(./src/assets/img/mosque2.jpg); background-size: cover; background-position: center;">
+            <ul class="flex flex-col gap-2 items-center">
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    Accueil</li>
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    À propos</li>
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    Reservation</li>
+                <li
+                    class="text-xl transition-all duration-300 cursor-pointer hover:bg-amber-300 hover:px-4 hover:rounded-full">
+                    Contact</li>
+            </ul>
+            <div class="flex gap-2 items-center">
+                <a class="px-2 py-1 bg-linear-to-r from-[#4C5765] to-[#989FAB] rounded-full text-white"
+                    href="">Connexion</a>
+                <a class="px-2 py-1 bg-linear-to-r from-[#b8691b] to-[#EAB108] rounded-full text-white"
+                    href="">Inscription</a>
+            </div>
+        </div>
+
+
+
+
+    </header>
+    <div class="w-full min-h-screen flex items-center">
+        <div class="container shadow-xl max-w-[600px] mx-auto mt-30">
+                <div class=" mx-auto w-16 h-16 rounded-full text-white text-3xl flex justify-center items-center bg-[#D99E04]"><i class="fa-solid fa-user"></i></div>
+
+             <form action="./src/pages/home.html" class=" p-5 mx-auto " action="">
+                <div class="flex flex-col mx-auto text-center mb-10">
+                    <div class="text-xl font-extrabold">Bon retour !</div>
+                    <div>Connectez-vous à votre compte</div>
+                </div>
+
+                   
+                    <div class="grid gap-3 py-5 border-b border-black/10  ">
+                        <label for="">
+                            <div>Email *</div>
+                            <input class="border border-gray-300 rounded h-14 px-3 w-full" placeholder="Nom et Prenom"
+                                type="text">
+                        </label>
+
+                        <label for="">
+                            <div>Mot de passe *</div>
+                            <input class="border border-gray-300 rounded h-14 px-3 w-full" placeholder="mail@gmail.com"
+                                type="text">
+                        </label>
+                        
+                       <div class="w-full flex justify-between">
+                        <div>
+                            <input type="checkbox">Se souvenir de moi
+                        </div>
+                        <div class="text-[#E0A806]">Mot de passe oublié ?</div>
+                       </div>
+                        
+                    </div>
+
+
+
+
+
+
+                    <button type="submit" class="w-full bg-[rgb(202,131,25)] py-3 rounded text-white">Se connecter</button>
+                    <div class="flex py-10">
+                        <hr class="grow text-black/10"> <span class="px-3 traslate-y-[-10px]">Ou</span> <hr class="grow text-black/10">
+                    </div>
+                    <div class="w-full py-3 flex justify-center items-center gap-2 border my-3 border-black/10"><i class="fa-brands fa-google"></i> Continuer avec google</div>
+                    <div class="w-full py-3 flex justify-center items-center gap-2 border my-3 border-black/10 "><i class="fa-brands fa-facebook"></i> Continuer avec facebook</div>
+                    <div class="text-center py-5">Vous n'avez pas de compte ? <a href="./src/pages/inscription.html" class="text-[#E0A806]">S'inscrire</a></div>
+
+                </form>
+        </div>
+    </div>
+        <div class="w-full text-center"><i class="fa-solid fa-lock py-5"></i> Connexion Securisé et cryptée</div>
+
+
+   
+   
+</body>
+
+</html>
